@@ -1,6 +1,6 @@
 import os
 import base64
-from dotenv import load_dotenv
+
 import streamlit as st
 from langchain_community.document_loaders import UnstructuredPDFLoader, UnstructuredWordDocumentLoader, UnstructuredPowerPointLoader, TextLoader
 from langchain.text_splitter import CharacterTextSplitter
@@ -459,3 +459,4 @@ if st.session_state.show_source_dialog and st.session_state.current_source_path:
             st.session_state.show_source_dialog = False
         
         st.button("Close", on_click=close_iframe)
+
