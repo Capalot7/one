@@ -16,7 +16,7 @@ import json
 import re
 
 load_dotenv()
-groq_api_key = os.getenv('GROQ_API_KEY')
+groq_api_key = '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'
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 st.set_page_config(
